@@ -46,7 +46,7 @@
                 <MobileNavItem href="/about" @click="close()" v-umami="'View-About-Page'"><span class="text-xs">🧘🏾‍♂️</span> About</MobileNavItem>
                 <MobileNavItem href="/work" @click="close()" v-umami="'View-Work-Page'"><span class="text-xs">💼</span> Work</MobileNavItem>
                 <MobileNavItem href="/projects" @click="close()" v-umami="'View-Projects-Page'"><span class="text-xs">👨🏽‍💻</span> Projects</MobileNavItem>
-                <MobileNavItem href="https://blog.egdiala.dev" target="_blank" @click="close()" v-umami="'View-Blog-Page'"><span class="text-xs">✍🏾</span> Blog</MobileNavItem>
+                <MobileNavItem href="https://blog.okenna.dev" target="_blank" @click="close()" v-umami="'View-Blog-Page'"><span class="text-xs">✍🏾</span> Blog</MobileNavItem>
               </ul>
             </nav>
           </HeadlessPopoverPanel>

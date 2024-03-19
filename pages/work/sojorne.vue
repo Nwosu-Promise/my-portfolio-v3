@@ -12,35 +12,35 @@ const sections = [
   },
   { 
     "heading": "Problem Statement",
-    "subTexts": ["Our primary aim was to deliver an MVP for the Sojorne project on which it can scale, within the duration of 3 months. This MVP consisted of various modules including providers, communities, admin, customers and dashboard analytics.", "My role on Sojorne project was to lead the frontend team in delivering high quality and fully responsive admin dashboard."]
+    "subTexts": ["Our primary aim was to deliver an MVP for the Sojorne project on which it can scale, within the duration of 3 months. This MVP consisted of various modules including providers, communities, admin, customers and dashboard analytics.", "My role on the Sorjone project was to lead the backend team to build a backend application that is scalable, secure, and highly available."]
   },
-]
+] 
 
 const solutions = [
   { 
     "heading": "Solution",
-    "subTexts": ["Sojorne was built using Agile methodology. The project was broken down into three milestones, and each milestone further broken down into sprints.", "The project was setup with <i>Atomic Design Principle</i> in mind, creating and documenting our component set with StorybookJs which helped our development process become more modular and manageable.",
-    "Testing environment was setup with Jest, React Testing Library. Formik and Yup for handling forms and validation. Redux Toolkit for state management. HeadlessUI and TailwindCSS for UI and styling."
+    "subTexts": ["Sojorne was built using Agile methodology. The project was broken down into three milestones, and each milestone further broken down into sprints.", "We built the Sorjone project using the <b>monolith architecture</b>. We built features of this system using the object oriented programming paradigm while obeying <i>SOLID principles</i>. That helped our development process become more manageable and modular, making adding and maintaining features easy.",
+    "We set up the testing environment with Mocha. We used the JOI package for validating incoming requests. PostgreSQL as our database system. Postman for documenting the API endpoints. Redis as our in-cache memory."
     ]
   },
   { 
     "heading": "Implementation",
-    "subTexts": ["The implementation phase is where ideas transform into tangible solutions and as the driving force behind the frontend engineering of this project, my role extended beyond conceptualization to the meticulous crafting of a robust and efficient system. Let's delve into the intricacies of the coding journey that brought the envisioned solution to life.",
-    "With the technologies at our disposal, we were able to build out the admin dashboard for Sojorne."
+    "subTexts": ["The implementation phase is where ideas transform into tangible solutions and as the driving force behind the backend engineering of this project, my role extended beyond just writing code, I worked on designing the system which consists of database design, API design etc.",
+    "With the technologies at our disposal, we were able to build the backend system that served both the mobile and web applications."
     ]
   },
 ]
 
 const infos = [
-  { title: "Role", text: "Lead Frontend Engineer", icon: "carbon:user-role"},
+  { title: "Role", text: "Lead Backend Engineer", icon: "carbon:user-role"},
   { title: "Timeline", text: "3 months", icon: "mdi:chart-timeline-variant-shimmer"},
-  { title: "Tools", text: "ReactJs, TailwindCSS, Jest", icon: "ph:code"},
+  { title: "Tools", text: "NodeJS, JavaScript, ExpressJs, Mocha, PostgreSQL, Redis", icon: "ph:code"},
 ]
 
 const challenges = [
   { 
     "heading": "Challenges",
-    "subTexts": ["Embarking on any ambitious project inevitably invites challenges, which in turn, creates room for growth and innovation. In the labyrinth of code and creativity, I encountered hurdles that tested the mettle of our undertaking.", "This section unveils a few of the challenges faced during the development phase, shedding light on the twists and turns that required careful navigation. These are the few challenges I faced while building Sojorne Admin Dashboard."
+    "subTexts": ["Embarking on any ambitious project inevitably invites challenges, which creates room for growth and innovation. During the development phase of Sorjorne, we faced challenges that really put our efforts to the test.", "This section reveals some of the hurdles we came across in the development phase of Sorjorne, giving you a glimpse of the ups and downs that needed thoughtful handling."
     ]
   },
 ]
@@ -59,7 +59,7 @@ const challengesList = [
 const testing = [
   { 
     "heading": "Testing",
-    "subTexts": ["While building out Sojorne Admin Dashboard, we adopted a few testing strategies.", "This section unveils a few of the challenges faced during the development phase, shedding light on the twists and turns that required careful navigation. These are the few challenges I faced while building Sojorne Admin Dashboard."
+    "subTexts": ["While building Sorjone, we adopted the following  testing strategies.",
     ]
   },
 ]
@@ -67,23 +67,19 @@ const testing = [
 const testingList = [
   {
     title: 'Unit Testing',
-    subText: 'After building out components with StorybookJs, I wrote unit tests for those components with Jest and RTL, maintaining a coverage of over 80%.'
+    subText: 'We used this to validate the correctness of individual backend units, such as functions or methods, in isolation.'
   },
   {
     title: 'Integration Testing',
-    subText: 'After putting the components together on different pages of the app, I wrote tests that checks the interaction between different parts and components, ensuring they work together as expected.'
+    subText: 'We used this to ensure the seamless collaboration of different backend components and the correct flow of data between them. Maintaining a test coverage of over 80%.'
   },
   {
     title: 'Acceptance Testing',
-    subText: 'At each sprint, I check the work done so far to ensure it meets the user\'s requirements and the current state of the app works as it is expected to by end users.'
+    subText: 'After each sprint, the team, consisting of backend engineers, frontend engineers, designers, project owners and QA testers, check the work done so far to ensure it meets the user\'s requirements and the app works as expected by end users.'
   },
   {
-    title: 'Visual Regression Testing',
-    subText: 'I also compare the UI conversion with the available designs on Figma to ensure it\'s pixel perfect.'
-  },
-  {
-    title: 'Cross-browser Compatibility Testing',
-    subText: 'After each implementation, I test across browsers and devices to make sure there are no bugs. Doing this help me spot a blank screen bug (as mentioned in the previous section 👆🏾🙃).'
+    title: 'End-to-end Testing',
+    subText: 'We used this to validate the overall functionality of the entire backend system, including its interfaces with other systems.'
   },
 ]
 
@@ -251,7 +247,7 @@ onMounted(() => {
             March 20, 2023
           </time>
           <span class="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500" />
-          <span class="text-base text-zinc-400 dark:text-zinc-500">Admin Dashboard</span>
+          <span class="text-base text-zinc-400 dark:text-zinc-500">Backend Application</span>
         </div>
       </div>
     </div>

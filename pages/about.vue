@@ -46,27 +46,27 @@ const skills = [
 
 const socialLinks = [
     {
-        link: 'https://twitter.com/e_diala',
+        link: 'https://twitter.com/promise_okenna',
         icon: 'bxl:twitter',
         name: 'Follow on Twitter',
         class: 'socialLink'
     },
     {
-        link: 'https://github.com/egdiala',
+        link: 'https://github.com/Nwosu-Promise',
         icon: 'bxl:github',
         name: 'Follow on GitHub',
         class: 'socialLink mt-4'
     },
     {
-        link: 'https://www.linkedin.com/in/egwuchukwu-diala/',
+        link: 'https://www.linkedin.com/in/nwosu-promise/',
         icon: 'bxl:linkedin-square',
         name: 'Follow on LinkedIn',
         class: 'socialLink mt-4'
     },
     {
-        link: 'mailto:dialaegwuchukwu@gmail.com',
+        link: 'mailto:promiseokechukwu79@gmail.com',
         icon: 'heroicons:envelope-solid',
-        name: 'dialaegwuchukwu@gmail.com',
+        name: 'promiseokechukwu79@gmail.com',
         class: 'socialLink mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40'
     },
 ]

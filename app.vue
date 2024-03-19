@@ -13,17 +13,17 @@ useHead({
     {
       src: 'https://eu.umami.is/script.js',
       async: true,
-      'data-website-id': 'cccdc190-300e-45a6-9178-63c356330f63'
+      'data-website-id': '9189f939-e1c1-4078-8c25-630424e508d5'
     }
   ]
 })
 
 useSchemaOrg([
   definePerson({
-    name: 'Egwuchukwu Stephen Diala',
+    name: 'Nwosu Promise Okenna',
     image: 'https://res.cloudinary.com/egdiala/image/upload/v1693016247/portfolio-v3/images/egdiala-mini.jpg',
     sameAs: [
-      'https://github.com/egdiala', 'https://www.linkedin.com/in/egwuchukwu-diala/'
+      'https://github.com/Nwosu-Promise', 'https://www.linkedin.com/in/egwuchukwu-diala/'
     ]
   }),
   defineWebSite({/* ... */}),

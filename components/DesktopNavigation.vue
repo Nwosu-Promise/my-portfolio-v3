@@ -8,7 +8,7 @@
             <NavItem to="/about" label="About" v-umami="'View-About-Page'" />
             <NavItem to="/work" label="Work" v-umami="'View-Work-Page'" />
             <NavItem to="/projects" label="Projects" v-umami="'View-Projects-Page'" />
-            <NavItem to="https://blog.egdiala.dev" target="_blank" label="Blog" v-umami="'View-Blog-Page'" />
+            <NavItem to="https://blog.okenna.dev" target="_blank" label="Blog" v-umami="'View-Blog-Page'" />
         </ul>
     </nav>
 </template>

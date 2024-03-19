@@ -5,10 +5,12 @@ import type { MotionVariants } from "@vueuse/motion";
 
 const route = useRoute()
 useHead({
-  title: 'Frontend engineer, designer, music lover',
+  title: 'Backend engineer, database engineer, music lover',
   meta: [
     { charset: 'utf-8' },
-    { name: 'description', content: 'Egwuchukwu is a design-focused frontend engineer and designer based in Lagos, Nigeria. He combines his expertise to create meaningful experiences.' },
+    { 
+      name: 'description',
+     content: 'Egwuchukwu is a design-focused frontend engineer and designer based in Lagos, Nigeria. He combines his expertise to create meaningful experiences.' },
   ],
   link: [
     {
@@ -27,13 +29,13 @@ useHead({
 
 useSeoMeta({
   title: 'Home',
-  description: 'Frontend engineer, designer, music lover.',
-  ogTitle: 'Egwuchukwu S. Diala',
-  ogDescription: 'Egwuchukwu is a design-focused frontend engineer.',
+  description: 'Backend engineer, database engineer, music lover.',
+  ogTitle: 'Nwosu Promise Okenna',
+  ogDescription: 'Nwosu Promise is a design-focused backend engineer.',
   ogImage: '/images/egdiala-mini.jpg',
   twitterCard: 'summary',
-  twitterTitle: 'Egwuchukwu S. Diala',
-  twitterDescription: 'Frontend engineer, designer, music lover',
+  twitterTitle: 'Nwosu Promise Okenna',
+  twitterDescription: 'Backend engineer, database engineer, music lover',
   twitterImage: '/favicon.ico'
 })
 
@@ -134,24 +136,24 @@ onMounted(() => {
     <Container outer-class="mt-9">
         <div class="max-w-2xl">
           <h1 class="title text-4xl leading-10 font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl sm:leading-[3.5rem]">
-            Frontend engineer, designer, and music lover.
+            Backend engineer, designer, and music lover.
           </h1>
           <p class="paragraph mt-6 text-base text-zinc-600 dark:text-zinc-400 leading-7">
-            I’m Egwuchukwu, a <span class="text-zinc-900 dark:text-zinc-50">design-focused</span> frontend engineer and designer based in Lagos, Nigeria. <span class="text-zinc-900 dark:text-zinc-50">I combine my expertise</span> in all levels of development and my <span class="text-zinc-900 dark:text-zinc-50">understanding of UI design</span> to <span class="text-zinc-900 dark:text-zinc-50">create meaningful experiences</span>.
+            I’m Promise, a <span class="text-zinc-900 dark:text-zinc-50">design-focused</span> backend engineer and designer based in Lagos, Nigeria. <span class="text-zinc-900 dark:text-zinc-50">I combine my expertise</span> in all levels of development and my <span class="text-zinc-900 dark:text-zinc-50">understanding of UI design</span> to <span class="text-zinc-900 dark:text-zinc-50">create meaningful experiences</span>.
           </p>
           <div v-motion="{ initial: icons.initial, enter: icons.enter }" class="mt-6 flex gap-6">
             <SocialIcon v-umami="'View-Twitter-Page'"
-              href="https://twitter.com/e_diala"
+              href="https://twitter.com/promise_okenna"
               aria-label="Follow on Twitter"
               icon="bxl:twitter"
             />
             <SocialIcon v-umami="'View-GitHub-Page'"
-              href="https://github.com/egdiala"
+              href="https://github.com/Nwosu-Promise"
               aria-label="Follow on GitHub"
               icon="bxl:github"
             />
             <SocialIcon v-umami="'View-LinkedIn-Page'"
-              href="https://www.linkedin.com/in/egwuchukwu-diala/"
+              href="https://www.linkedin.com/in/nwosu-promise/"
               aria-label="Follow on LinkedIn"
               icon="bxl:linkedin-square"
             />

@@ -50,20 +50,20 @@ const resumeAnimation = (i: number) => ({
 const resume = ref<Resume[]>([
     {
         company: 'Enyata',
-        title: 'Software Engineer',
+        title: 'Backend Engineer',
         logo: 'v1693016273/portfolio-v3/work/enyata_luugvs.jpg',
-        start: 'Feb, 2023',
+        start: 'Nov, 2022',
         end: {
             label: 'Present',
             dateTime: new Date().getFullYear(),
         },
     },
     {
-        company: 'BLK Labs',
-        title: 'Frontend Engineer',
+        company: 'Pertinence Group',
+        title: 'Backend Engineer',
         logo: 'v1693016273/portfolio-v3/work/blk_fsz6pr.jpg',
-        start: 'Apr, 2022',
-        end: 'Jul, 2023',
+        start: 'Feb, 2020',
+        end: 'Nov, 2022',
     },
     {
         company: 'Melli',

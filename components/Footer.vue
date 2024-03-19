@@ -25,10 +25,10 @@ const variants: MotionVariants = {
                 <NavLink href="/about" v-umami="'View-About-Page-Footer'">About</NavLink>
                 <NavLink href="/work" v-umami="'View-Work-Page-Footer'">Work</NavLink>
                 <NavLink href="/projects" v-umami="'View-Projects-Page-Footer'">Projects</NavLink>
-                <NavLink href="https://blog.egdiala.dev" target="_blank" v-umami="'View-Blog-Page-Footer'">Blog</NavLink>
+                <NavLink href="https://blog.okenna.dev" target="_blank" v-umami="'View-Blog-Page-Footer'">Blog</NavLink>
             </div>
             <p class="text-sm text-zinc-400 dark:text-zinc-500">
-            &copy; {{ new Date().getFullYear() }} Egwuchukwu S. Diala. All rights
+            &copy; {{ new Date().getFullYear() }} Nwosu P. Okenna. All rights
             reserved.
             </p>
         </div>

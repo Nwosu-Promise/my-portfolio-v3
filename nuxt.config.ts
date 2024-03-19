@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   extends: ["nuxt-seo-kit", "nuxt-umami"],
   appConfig: {
     umami: {
-      id: 'cccdc190-300e-45a6-9178-63c356330f63',
+      id: '9189f939-e1c1-4078-8c25-630424e508d5',
       host: 'https://eu.umami.is/script.js',
       useDirective: true
     },
@@ -26,8 +26,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       siteUrl: 'https://egdiala-v3.netlify.app',
-      siteName: 'Egwuchukwu S. Diala',
-      siteDescription: 'Egwuchukwu Diala\'s Portfolio Website',
+      siteName: 'Nwosu Promise Okenna',
+      siteDescription: 'Nwosu Promise\'s Portfolio Website',
       language: 'en',
       titleSeparator: '-',
     }
